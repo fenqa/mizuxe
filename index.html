@@ -10,7 +10,7 @@
     ></script>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.min.css" />
-    <title>Bootstrap Theme</title>
+    <title>Mizuxe</title>
   </head>
   <body id="home" data-spy="scroll" data-target="#main-nav">
     <nav
@@ -455,15 +455,15 @@
     ></script>
     <script>
       // Get the current year for the copyright
-      $('#year').text(new Date().getFullYear());
+      $("#year").text(new Date().getFullYear());
 
       // smooth
 
-      $('#main-nav a').on('click', function(e) {
+      $("#main-nav a").on("click", function(e) {
         e.preventDefault();
 
         const hash = this.hash;
-        $('html, body').animate(
+        $("html, body").animate(
           {
             scrollTop: $(hash).offset().top
           },
